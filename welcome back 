@@ -1,0 +1,517 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNXcg/LEMOg4AES+Ws+7XZC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/County-Tv/Python-101/blob/PythonTree/welcome%20back%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Chapter TWO"
+      ],
+      "metadata": {
+        "id": "SDDKDAulTAVI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"welcome back to coding\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BQg8TMJsTQZw",
+        "outputId": "74eb4129-86f9-4ac9-c07e-4d5a40156f00"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcome back to coding\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Chapter 3"
+      ],
+      "metadata": {
+        "id": "nS0XhewVod0J"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "help()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y4OOMWtGuWBq",
+        "outputId": "17fe9e6a-933b-4c85-e5db-32260eaeebcd"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Welcome to Python 3.13's help utility! If this is your first time using\n",
+            "Python, you should definitely check out the tutorial at\n",
+            "https://docs.python.org/3.13/tutorial/.\n",
+            "\n",
+            "Enter the name of any module, keyword, or topic to get help on writing\n",
+            "Python programs and using Python modules.  To get a list of available\n",
+            "modules, keywords, symbols, or topics, enter \"modules\", \"keywords\",\n",
+            "\"symbols\", or \"topics\".\n",
+            "\n",
+            "Each module also comes with a one-line summary of what it does; to list\n",
+            "the modules whose name or summary contain a given string such as \"spam\",\n",
+            "enter \"modules spam\".\n",
+            "\n",
+            "To quit this help utility and return to the interpreter,\n",
+            "enter \"q\", \"quit\" or \"exit\".\n",
+            "\n",
+            "help> print()\n",
+            "No Python documentation found for 'print()'.\n",
+            "Use help() to get the interactive help utility.\n",
+            "Use help(str) for help on the str class.\n",
+            "\n",
+            "\n",
+            "You are now leaving help and returning to the Python interpreter.\n",
+            "If you want to ask for help on a particular object directly from the\n",
+            "interpreter, you can type \"help(object)\".  Executing \"help('string')\"\n",
+            "has the same effect as typing a particular string at the help> prompt.\n",
+            "help> q\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "help()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xB4KKXzuvpqw",
+        "outputId": "fc5b44b6-f75c-4e07-d806-45928d8dd14c"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Welcome to Python 3.13's help utility! If this is your first time using\n",
+            "Python, you should definitely check out the tutorial at\n",
+            "https://docs.python.org/3.13/tutorial/.\n",
+            "\n",
+            "Enter the name of any module, keyword, or topic to get help on writing\n",
+            "Python programs and using Python modules.  To get a list of available\n",
+            "modules, keywords, symbols, or topics, enter \"modules\", \"keywords\",\n",
+            "\"symbols\", or \"topics\".\n",
+            "\n",
+            "Each module also comes with a one-line summary of what it does; to list\n",
+            "the modules whose name or summary contain a given string such as \"spam\",\n",
+            "enter \"modules spam\".\n",
+            "\n",
+            "To quit this help utility and return to the interpreter,\n",
+            "enter \"q\", \"quit\" or \"exit\".\n",
+            "\n",
+            "help> sys.stdout\n",
+            "Help on OutStream in sys object:\n",
+            "\n",
+            "sys.stdout = class OutStream(io.TextIOBase)\n",
+            " |  sys.stdout(\n",
+            " |      session,\n",
+            " |      pub_thread,\n",
+            " |      name,\n",
+            " |      pipe=None,\n",
+            " |      echo=None,\n",
+            " |      *,\n",
+            " |      watchfd=True,\n",
+            " |      isatty=False\n",
+            " |  )\n",
+            " |\n",
+            " |  A file like object that publishes the stream to a 0MQ PUB socket.\n",
+            " |\n",
+            " |  Output is handed off to an IO Thread\n",
+            " |\n",
+            " |  Method resolution order:\n",
+            " |      OutStream\n",
+            " |      io.TextIOBase\n",
+            " |      _io._TextIOBase\n",
+            " |      io.IOBase\n",
+            " |      _io._IOBase\n",
+            " |      builtins.object\n",
+            " |\n",
+            " |  Methods defined here:\n",
+            " |\n",
+            " |  __init__(\n",
+            " |      self,\n",
+            " |      session,\n",
+            " |      pub_thread,\n",
+            " |      name,\n",
+            " |      pipe=None,\n",
+            " |      echo=None,\n",
+            " |      *,\n",
+            " |      watchfd=True,\n",
+            " |      isatty=False\n",
+            " |  )\n",
+            " |      Parameters\n",
+            " |      ----------\n",
+            " |      session : object\n",
+            " |          the session object\n",
+            " |      pub_thread : threading.Thread\n",
+            " |          the publication thread\n",
+            " |      name : str {'stderr', 'stdout'}\n",
+            " |          the name of the standard stream to replace\n",
+            " |      pipe : object\n",
+            " |          the pip object\n",
+            " |      echo : bool\n",
+            " |          whether to echo output\n",
+            " |      watchfd : bool (default, True)\n",
+            " |          Watch the file descripttor corresponding to the replaced stream.\n",
+            " |          This is useful if you know some underlying code will write directly\n",
+            " |          the file descriptor by its number. It will spawn a watching thread,\n",
+            " |          that will swap the give file descriptor for a pipe, read from the\n",
+            " |          pipe, and insert this into the current Stream.\n",
+            " |      isatty : bool (default, False)\n",
+            " |          Indication of whether this stream has termimal capabilities (e.g. can handle colors)\n",
+            " |\n",
+            " |  close(self)\n",
+            " |      Flush and close the IO object.\n",
+            " |\n",
+            " |      This method has no effect if the file is already closed.\n",
+            " |\n",
+            " |  fileno(self)\n",
+            " |      Things like subprocess will peak and write to the fileno() of stderr/stdout.\n",
+            " |\n",
+            " |  flush(self)\n",
+            " |      trigger actual zmq send\n",
+            " |\n",
+            " |      send will happen in the background thread\n",
+            " |\n",
+            " |  isatty(self)\n",
+            " |      Return a bool indicating whether this is an 'interactive' stream.\n",
+            " |\n",
+            " |      Returns:\n",
+            " |          Boolean\n",
+            " |\n",
+            " |  set_parent(self, parent)\n",
+            " |\n",
+            " |  writable(self)\n",
+            " |      Return whether object was opened for writing.\n",
+            " |\n",
+            " |      If False, write() will raise OSError.\n",
+            " |\n",
+            " |  write(self, string: str) -> Optional[int]\n",
+            " |      Write to current stream after encoding if necessary\n",
+            " |\n",
+            " |      Returns\n",
+            " |      -------\n",
+            " |      len : int\n",
+            " |          number of items from input parameter written to stream.\n",
+            " |\n",
+            " |  writelines(self, sequence)\n",
+            " |      Write a list of lines to stream.\n",
+            " |\n",
+            " |      Line separators are not added, so it is usual for each of the\n",
+            " |      lines provided to have a line separator at the end.\n",
+            " |\n",
+            " |  ----------------------------------------------------------------------\n",
+            " |  Readonly properties defined here:\n",
+            " |\n",
+            " |  closed\n",
+            " |\n",
+            " |  ----------------------------------------------------------------------\n",
+            " |  Data and other attributes defined here:\n",
+            " |\n",
+            " |  __abstractmethods__ = frozenset()\n",
+            " |\n",
+            " |  __annotations__ = {'_exc': typing.Optional[typing.Any]}\n",
+            " |\n",
+            " |  encoding = 'UTF-8'\n",
+            " |\n",
+            " |  flush_interval = 0.2\n",
+            " |\n",
+            " |  flush_timeout = 10\n",
+            " |\n",
+            " |  topic = None\n",
+            " |\n",
+            " |  ----------------------------------------------------------------------\n",
+            " |  Methods inherited from _io._TextIOBase:\n",
+            " |\n",
+            " |  detach(self, /)\n",
+            " |      Separate the underlying buffer from the TextIOBase and return it.\n",
+            " |\n",
+            " |      After the underlying buffer has been detached, the TextIO is in\n",
+            " |      an unusable state.\n",
+            " |\n",
+            " |  read(self, size=-1, /)\n",
+            " |      Read at most size characters from stream.\n",
+            " |\n",
+            " |      Read from underlying buffer until we have size characters or we hit\n",
+            " |      EOF.  If size is negative or omitted, read until EOF.\n",
+            " |\n",
+            " |  readline(self, size=-1, /)\n",
+            " |      Read until newline or EOF.\n",
+            " |\n",
+            " |      Return an empty string if EOF is hit immediately.\n",
+            " |      If size is specified, at most size characters will be read.\n",
+            " |\n",
+            " |  ----------------------------------------------------------------------\n",
+            " |  Data descriptors inherited from _io._TextIOBase:\n",
+            " |\n",
+            " |  errors\n",
+            " |      The error setting of the decoder or encoder.\n",
+            " |\n",
+            " |      Subclasses should override.\n",
+            " |\n",
+            " |  newlines\n",
+            " |      Line endings translated so far.\n",
+            " |\n",
+            " |      Only line endings translated during reading are considered.\n",
+            " |\n",
+            " |      Subclasses should override.\n",
+            " |\n",
+            " |  ----------------------------------------------------------------------\n",
+            " |  Methods inherited from _io._IOBase:\n",
+            " |\n",
+            " |  __del__(self, /)\n",
+            " |      Called when the instance is about to be destroyed.\n",
+            " |\n",
+            " |  __enter__(self, /)\n",
+            " |\n",
+            " |  __exit__(...)\n",
+            " |\n",
+            " |  __iter__(self, /)\n",
+            " |      Implement iter(self).\n",
+            " |\n",
+            " |  __next__(self, /)\n",
+            " |      Implement next(self).\n",
+            " |\n",
+            " |  readable(self, /)\n",
+            " |      Return whether object was opened for reading.\n",
+            " |\n",
+            " |      If False, read() will raise OSError.\n",
+            " |\n",
+            " |  readlines(self, hint=-1, /)\n",
+            " |      Return a list of lines from the stream.\n",
+            " |\n",
+            " |      hint can be specified to control the number of lines read: no more\n",
+            " |      lines will be read if the total size (in bytes/characters) of all\n",
+            " |      lines so far exceeds hint.\n",
+            " |\n",
+            " |  seek(self, offset, whence=0, /)\n",
+            " |      Change the stream position to the given byte offset.\n",
+            " |\n",
+            " |        offset\n",
+            " |          The stream position, relative to 'whence'.\n",
+            " |        whence\n",
+            " |          The relative position to seek from.\n",
+            " |\n",
+            " |      The offset is interpreted relative to the position indicated by\n",
+            " |      whence.  Values for whence are:\n",
+            " |\n",
+            " |      * os.SEEK_SET or 0 -- start of stream (the default); offset should\n",
+            " |        be zero or positive\n",
+            " |      * os.SEEK_CUR or 1 -- current stream position; offset may be\n",
+            " |        negative\n",
+            " |      * os.SEEK_END or 2 -- end of stream; offset is usually negative\n",
+            " |\n",
+            " |      Return the new absolute position.\n",
+            " |\n",
+            " |  seekable(self, /)\n",
+            " |      Return whether object supports random access.\n",
+            " |\n",
+            " |      If False, seek(), tell() and truncate() will raise OSError.\n",
+            " |      This method may need to do a test seek().\n",
+            " |\n",
+            " |  tell(self, /)\n",
+            " |      Return current stream position.\n",
+            " |\n",
+            " |  truncate(self, size=None, /)\n",
+            " |      Truncate file to size bytes.\n",
+            " |\n",
+            " |      File pointer is left unchanged.  Size defaults to the current IO\n",
+            " |      position as reported by tell().  Return the new size.\n",
+            " |\n",
+            " |  ----------------------------------------------------------------------\n",
+            " |  Data descriptors inherited from _io._IOBase:\n",
+            " |\n",
+            " |  __dict__\n",
+            "\n",
+            "help> \n",
+            "help> \n",
+            "help> q\n",
+            "\n",
+            "You are now leaving help and returning to the Python interpreter.\n",
+            "If you want to ask for help on a particular object directly from the\n",
+            "interpreter, you can type \"help(object)\".  Executing \"help('string')\"\n",
+            "has the same effect as typing a particular string at the help> prompt.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Mystartover = (2027)\n",
+        "dir(Mystartover)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XUROCkXNxe5A",
+        "outputId": "7824657a-bc9c-4c60-ac2f-9eb30e1480a5"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['__abs__',\n",
+              " '__add__',\n",
+              " '__and__',\n",
+              " '__bool__',\n",
+              " '__ceil__',\n",
+              " '__class__',\n",
+              " '__delattr__',\n",
+              " '__dir__',\n",
+              " '__divmod__',\n",
+              " '__doc__',\n",
+              " '__eq__',\n",
+              " '__float__',\n",
+              " '__floor__',\n",
+              " '__floordiv__',\n",
+              " '__format__',\n",
+              " '__ge__',\n",
+              " '__getattribute__',\n",
+              " '__getnewargs__',\n",
+              " '__getstate__',\n",
+              " '__gt__',\n",
+              " '__hash__',\n",
+              " '__index__',\n",
+              " '__init__',\n",
+              " '__init_subclass__',\n",
+              " '__int__',\n",
+              " '__invert__',\n",
+              " '__le__',\n",
+              " '__lshift__',\n",
+              " '__lt__',\n",
+              " '__mod__',\n",
+              " '__mul__',\n",
+              " '__ne__',\n",
+              " '__neg__',\n",
+              " '__new__',\n",
+              " '__or__',\n",
+              " '__pos__',\n",
+              " '__pow__',\n",
+              " '__radd__',\n",
+              " '__rand__',\n",
+              " '__rdivmod__',\n",
+              " '__reduce__',\n",
+              " '__reduce_ex__',\n",
+              " '__repr__',\n",
+              " '__rfloordiv__',\n",
+              " '__rlshift__',\n",
+              " '__rmod__',\n",
+              " '__rmul__',\n",
+              " '__ror__',\n",
+              " '__round__',\n",
+              " '__rpow__',\n",
+              " '__rrshift__',\n",
+              " '__rshift__',\n",
+              " '__rsub__',\n",
+              " '__rtruediv__',\n",
+              " '__rxor__',\n",
+              " '__setattr__',\n",
+              " '__sizeof__',\n",
+              " '__str__',\n",
+              " '__sub__',\n",
+              " '__subclasshook__',\n",
+              " '__truediv__',\n",
+              " '__trunc__',\n",
+              " '__xor__',\n",
+              " 'as_integer_ratio',\n",
+              " 'bit_count',\n",
+              " 'bit_length',\n",
+              " 'conjugate',\n",
+              " 'denominator',\n",
+              " 'from_bytes',\n",
+              " 'imag',\n",
+              " 'is_integer',\n",
+              " 'numerator',\n",
+              " 'real',\n",
+              " 'to_bytes']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Mystartover.bit_length()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PJJHsCY-x2Hs",
+        "outputId": "cc043450-e369-4ca6-925c-9476a153c703"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "11"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    }
+  ]
+}
